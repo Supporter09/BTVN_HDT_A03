@@ -4,7 +4,6 @@ for i in range(len(array)):
     for j in range(1,len(array)):
         if i != j :
             tich = array[i] * array[j]
-        
             if tich == 256:
                     print(array[i],'va',array[j],'o vi tri so',i,'va',j)
                     array[i]=0
