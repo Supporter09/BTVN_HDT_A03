@@ -7,5 +7,7 @@ for i in range(len(array)):
         
             if tich == 256:
                     print(array[i],'va',array[j],'o vi tri so',i,'va',j)
+                    array[i]=0
+                    array[j]=0
                 
                 
